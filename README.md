@@ -1,8 +1,16 @@
 # OmniStyleGAN
 OmniStyleGAN for Style-Guided Image-to-Image Translation
 
-## Training networks
+## Requirement
 
+```
+ python==3.6
+ pytorch==1.7.1
+ CUDA11.2
+ CUDNN8.1
+```
+
+## Training networks
 
 ```
 python main.py --mode train --num_domains 3 --w_hpf 0 \
